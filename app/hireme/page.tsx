@@ -53,7 +53,7 @@ const HireMe = () => {
         {/* Front-End Developer Intern */}
         <div className="mb-6">
           <h4 className="text-lg font-semibold text-black">Front-End Developer Intern</h4>
-          <p className="text-gray-700 mb-2">ACE EMEDED NIG LTD, July 2024 – Present</p>
+          <p className="text-gray-700 mb-2">ACE EMEDED NIG LTD, July 2024-Present</p>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
             <li>Currently working on developing user interfaces for web applications.</li>
             <li>Gaining hands-on experience with front-end technologies.</li>
@@ -65,7 +65,7 @@ const HireMe = () => {
         {/* Junior Front-End Software Engineer */}
         <div className="mb-6">
           <h4 className="text-lg font-semibold text-black">Junior Front-End Software Engineer</h4>
-          <p className="text-gray-700 mb-2">ParallelScore International, June 2023 – November 2023</p>
+          <p className="text-gray-700 mb-2">ParallelScore International, June 2023-November 2023</p>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
             <li>Developed responsive web applications in collaboration with cross-functional teams.</li>
             <li>Implemented pixel-perfect UI/UX designs using HTML5, CSS3, and JavaScript.</li>
@@ -82,7 +82,7 @@ const HireMe = () => {
       <div className="mb-8">
         <h3 className="text-xl font-semibold text-black mb-2">Get in Touch</h3>
         <p className="text-gray-700 mb-4">
-          If you're interested in working with me or have any questions, feel free to reach out!
+          If you are interested in working with me or have any questions, feel free to reach out!
         </p>
         <a 
           href="mailto:egharevbagift79@gmail.com" 

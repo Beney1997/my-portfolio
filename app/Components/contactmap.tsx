@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import feedbackData from "@/app/Data/feedbackdata"; 
+import Image from 'next/image';
 
 const ContactMap = () => {
   const [showContact, setShowContact] = useState(false);
 
   const handleButtonClick = () => {
-    setShowContact(!showContact); // Toggle contact visibility
+    setShowContact(!showContact);
   };
 
   return (
@@ -37,10 +38,13 @@ const ContactMap = () => {
           {feedbackData.map((feedback, index) => (
             <div key={index} className="flex flex-col mb-4 w-full md:w-1/3 lg:w-1/4">
               <div className="relative bg-white border border-gray-200 rounded shadow h-auto p-4 flex">
-                <img
+                <Image
                   src={feedback.image}
                   alt={`${feedback.name}'s feedback`}
+                  height={65}
                   className="w-16 h-16 rounded-full mr-4" 
+                  width={64}
+                 
                 />
                 <div className="flex flex-col justify-center">
                   <h2 className="text-red-500 text-lg font-medium mb-1">{feedback.name}</h2>

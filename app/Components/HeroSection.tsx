@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 
 const HeroSection = () => {
@@ -50,19 +50,19 @@ const HeroSection = () => {
                 Designing With Passion While Exploring The World.
               </h3>
               <p className="text-[#10285d] mb-8">
-              As a designer, I believe that creativity knows no boundaries. My journey is fueled by a
-               deep passion for creating meaningful, impactful designs that resonate with people from
-               all walks of life. Each project is an opportunity to blend innovation with inspiration
-               drawn from the diverse cultures and experiences I've encountered while exploring the
-               world. With every design, I strive to tell a story—one that not only captivates but
-               also connects on a deeper level. 
+                As a designer, I believe that creativity knows no boundaries. My journey is fueled by a
+                deep passion for creating meaningful, impactful designs that resonate with people from
+                all walks of life. Each project is an opportunity to blend innovation with inspiration
+                drawn from the diverse cultures and experiences I have encountered while exploring the
+                world. With every design, I strive to tell a story&mdash;one that not only captivates but
+                also connects on a deeper level. 
               </p>
               <p className="text-[#10285d]">
-              Whether crafting user-centric interfaces or visually compelling experiences,
-              my goal remains the same: to merge purpose with beauty, creating work that inspires
-              and makes a difference. By continuously learning and evolving through travel and 
-              exploration, I bring fresh perspectives and global insights to every project,
-               always aiming to push the boundaries of what's possible in design.
+                Whether crafting user-centric interfaces or visually compelling experiences,
+                my goal remains the same: to merge purpose with beauty, creating work that inspires
+                and makes a difference. By continuously learning and evolving through travel and 
+                exploration, I bring fresh perspectives and global insights to every project,
+                always aiming to push the boundaries of what's possible in design.
               </p>
             </div>
 
@@ -71,7 +71,7 @@ const HeroSection = () => {
               <h3 className="text-[#000a2d] text-[40px] font-bold mb-[35px] leading-[1.5]">
                 Any Type Of Query<br /> &amp; Discussion.
               </h3>
-              <p className="mb-4 text-[#6c757d]">Late talk's with me ? that's alright .</p>
+              <p className="mb-4 text-[#6c757d]">Late talk's with me ? that is alright .</p>
               <div className="send-cv">
                 <a
                   href="mailto:egharevbagift79@gmail.com"

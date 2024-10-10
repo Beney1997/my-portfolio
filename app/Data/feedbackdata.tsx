@@ -14,7 +14,7 @@ const feedbackData = [
     {
       name: "Maya Angelou",
       title: "Customer Service",
-      feedback: "People will forget what you said, people will forget what you did, but people will never forget how you made them feel.Customer service is not a department, it’s an attitude.Customer service is the new marketing.",
+      feedback: "People will forget what you said, people will forget what you did, but people will never forget how you made them feel.Customer service is not a department, it is an attitude.Customer service is the new marketing.",
       image : "https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/blog3.png",
     },
   ];

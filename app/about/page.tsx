@@ -40,16 +40,16 @@ const AboutPage = () => {
   }, []);
 
   return (
-    <section className="p-4 bg-white min-h-screen ">
-      <div className="bg-gray-300 p-4 h-[300px] flex flex-col justify-center py-40 mb-8">
-        <h1 className="text-[#002d5b] font-medium text-4xl md:text-6xl ml-10">About Me</h1>
-        <Link href="/" className="text-red-500 mt-4 inline-block ml-10">Home / About Me</Link>
+    <section className="p-4 bg-white min-h-screen relative p-4 ">
+      <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-20 md:py-40 mb-8">
+        <h1 className="text-[#002d5b] font-medium text-3xl sm:text-4xl md:text-6xl ml-4 sm:ml-10">About Me</h1>
+        <Link href="/" className="text-red-500 mt-4 inline-block ml-4 sm:ml-10">
+          Home / About Me
+        </Link>
       </div>
-
     
-      <div className="h-55"></div>
-      <div className="flex flex-col md:flex-row items-start md:items-center">
-        <div className="mt-4 md:mt-0 md:mr-6">
+      <div className="flex flex-col md:flex-row items-start md:items-center mx-auto max-w-5xl px-4 md:px-0">
+        <div className="flex-shrink-0">
           <Image 
             src={require('@/app/Public/images/gift.png')} 
             alt="Egharevba Gift"
@@ -63,17 +63,17 @@ const AboutPage = () => {
           ref={aboutRef}
           className={`flex flex-col transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'} max-w-md ml-40`} 
         >
-          <p className='text-[#002d5b] font-medium text-4xl md:text-6xl whitespace-nowrap mb-3'> 
+          <p className="text-[#002d5b] font-medium text-4xl sm:text-4xl md:text-6xl mb-3">
             Building is the goal .
           </p>
-          <p className="text-gray-800 text-sm mt-4"> 
+          <p className="text-gray-800 text-sm sm:text-base mt-4">
           Hello! I am Egharevba Gift, a dedicated web developer with a 
           strong passion for programming. I specialize in creating intuitive, 
           user-centric applications designed to solve practical challenges.
           I believe that programming thrives on a combination of passion and
           commitment when you invest both, the results speak for themselves.
           </p>
-          <p className="text-gray-800 text-sm mt-4">
+          <p className="text-gray-800 text-sm sm:text-base mt-4">
           As a skilled front-end engineer, I have experience in 
           designing and implementing seamless web applications. With proficiency
           in modern front-end technologies and frameworks, I am eager to contribute to a 
@@ -82,30 +82,34 @@ const AboutPage = () => {
         </div>
       </div>
       <footer>
-      <div className="bg-blue-900 py-20 mt-4 text-center">
-        <img
-          src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
-          alt="Portfolio Logo"
-          className="mx-auto mt-8"
-        />
-        <a 
-               href="mailto:egharevbagift79@gmail.com" 
-              className="text-white text-4xl font-bold mt-10 underline inline-block"
-            >
-              egharevbagift79@gmail.com
+        <div className="bg-blue-900 py-10 md:py-20 mt-4 text-center">
+          <Image
+            src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
+            alt="Portfolio Logo"
+            className="mx-auto mt-8"
+            width={150}
+            height={150}
+          />
+          <a
+            href="mailto:egharevbagift79@gmail.com"
+            className="text-white text-2xl sm:text-4xl font-bold mt-4 sm:mt-10 underline inline-block"
+          >
+            egharevbagift79@gmail.com
           </a>
-          <p className="text-1xl mt-5">
-            No 8,Abijio,GRA off Lekki -epe-expressway,Lagos,Nigeria.</p>
-            <p className="text-[#000a2d] text-sm md:text-base ml-0 mt-8">
-          Copyright ©2024 All rights reserved | This template is made with ❤️ by Gift.
-        </p>
-        <p className="text-[#000a2d] mt-20 ">
+          <p className="text-white text-sm sm:text-base mt-5">
+            No 8,Abijio,GRA off Lekki -epe-expressway,Lagos,Nigeria.
+          </p>
+          <p className="text-[#000a2d] text-xs sm:text-base mt-8">
+            Copyright ©2024 All rights reserved | This template is made with ❤️ by Gift.
+          </p>
+          <p className="text-[#000a2d] mt-4 sm:mt-20">
             Stay Connected.
-        </p>
-      </div> 
+          </p>
+        </div>
       </footer>
     </section>
   );
 }
+
 
 export default AboutPage;

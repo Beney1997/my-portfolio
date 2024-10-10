@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer= () => {
   return (
@@ -8,7 +9,7 @@ const Footer= () => {
       
         <div className="w-full md:w-1/2 mb-8 md:mb-0"> 
           <h2 className="section-title font-bold text-6xl md:text-5xl mt-4 text-[#000a2d] mb-10">
-            If Not Now, When? <br /> Let's Work Together!
+            If Not Now, When? <br /> Let us Work Together!
           </h2>
           <p className="text-[#000a2d] mb-4">
           My name is Gift, and I am excited about the possibility of working together to bring 
@@ -18,7 +19,7 @@ const Footer= () => {
           <p className="text-[#000a2d]">
           Are you looking to build a user-friendly website, improve your digital presence,
           a beautiful customer service experience  or craft seamless experiences, 
-          I am here to help you achieve your goals. Let's work together to create something truly remarkable.
+          I am here to help you achieve your goals. Let us work together to create something truly remarkable.
           </p>
         </div>
 
@@ -63,10 +64,12 @@ const Footer= () => {
         </div>
       </div>
       <div className="bg-blue-900 py-40 mt-10 text-center">
-        <img
+        <Image
           src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
           alt="Portfolio Logo"
           className="mx-auto mt-8"
+          width={150}
+          height={150}
         />
         <a 
                href="mailto:egharevbagift79@gmail.com" 
