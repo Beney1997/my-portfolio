@@ -50,7 +50,7 @@ const AboutPage = () => {
       <div className="flex flex-col md:flex-row items-start md:items-center mx-auto max-w-5xl px-4 md:px-0">
         <div className="flex-shrink-0">
           <Image 
-            src="/images/gift.png"  
+            src="/images/beney.png"
             alt="Egharevba Gift"
             width={200}  
             height={200} 
