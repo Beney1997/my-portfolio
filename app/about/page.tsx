@@ -69,7 +69,8 @@ const AboutPage = () => {
             <li>Frameworks & Libraries: React, Tailwind CSS, Chakra UI</li>
             <li>Web Development: Responsive Web Design, UI/UX Design Principles, Cross-Browser Compatibility</li>
             <li>Tools: Git/GitHub, API Integration</li>
-            <li>Soft Skills: Problem Solving, Debugging, Strong Communication and Collaboration Skills</li>
+            <li>Soft Skills: Problem Solving, Debugging, Strong Communication and Collaboration Skills,Customer Services ,Digital Marketer etc.
+            </li>
           </div>
         )}
         {activeSection === 'education' && (
@@ -79,12 +80,17 @@ const AboutPage = () => {
         )}
         {activeSection === 'experience' && (
           <div className="text-gray-800">
+            <li>
+            <strong>Front-End Developer Intern</strong>
+            <br />
+            Reinvent Security, Septemeber 2024-present
+            </li>
           <li>
         <strong>Front-End Developer Intern</strong>
         <br />
         ACE EMEDED NIG LTD, July 2024-Present
         <ul className="list-disc list-inside ml-5 mt-1">
-          <li>Currently working on developing user interfaces for web applications.</li>
+          <li>Worked on developing user interfaces for web applications.</li>
           <li>Gaining hands-on experience with front-end technologies.</li>
           <li>Participating in code reviews and adopting best practices.</li>
           <li>Contributing to website performance optimization and responsiveness.</li>
