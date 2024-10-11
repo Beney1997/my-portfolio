@@ -48,38 +48,36 @@ const AboutPage = () => {
       </div>
     
       <div className="flex flex-col md:flex-row items-start md:items-center mx-auto max-w-5xl px-4 md:px-0">
-        <div className="flex-shrink-0">
-          <Image 
-            src="/images/beney.png"
-            alt="Egharevba Gift"
-            width={200}  
-            height={200} 
-            className="object-cover rounded-full"
-          />
-        </div>
+  {/* Image section (commented out for now) */}
+  {/*
+  <div className="flex-shrink-0">
+    <Image 
+      src="/images/beney.png"
+      alt="Egharevba Gift"
+      width={200}  
+      height={200} 
+      className="object-cover rounded-full"
+    />
+  </div>
+  */}
 
-        <div
-          ref={aboutRef}
-          className={`flex flex-col transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'} max-w-md ml-40`} 
-        >
-          <p className="text-[#002d5b] font-medium text-4xl sm:text-4xl md:text-6xl mb-3">
-            Building is the goal .
-          </p>
-          <p className="text-gray-800 text-sm sm:text-base mt-4">
-          Hello! I am Egharevba Gift, a dedicated web developer with a 
-          strong passion for programming. I specialize in creating intuitive, 
-          user-centric applications designed to solve practical challenges.
-          I believe that programming thrives on a combination of passion and
-          commitment when you invest both, the results speak for themselves.
-          </p>
-          <p className="text-gray-800 text-sm sm:text-base mt-4">
-          As a skilled front-end engineer, I have experience in 
-          designing and implementing seamless web applications. With proficiency
-          in modern front-end technologies and frameworks, I am eager to contribute to a 
-          dynamic development team, driving innovative solutions and enhancing user experiences.
-          </p>
-        </div>
-      </div>
+  {/* Text content */}
+  <div
+    ref={aboutRef}
+    className={`flex flex-col transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'} w-full`} 
+  >
+    <p className="text-[#002d5b] font-medium text-4xl sm:text-4xl md:text-6xl mb-3">
+      Building is the goal.
+    </p>
+    <p className="text-gray-800 text-sm sm:text-base mt-4">
+      Hello! I am Egharevba Gift, a dedicated web developer with a strong passion for programming. I specialize in creating intuitive, user-centric applications designed to solve practical challenges. I believe that programming thrives on a combination of passion and commitment; when you invest both, the results speak for themselves.
+    </p>
+    <p className="text-gray-800 text-sm sm:text-base mt-4">
+      As a skilled front-end engineer, I have experience in designing and implementing seamless web applications. With proficiency in modern front-end technologies and frameworks, I am eager to contribute to a dynamic development team, driving innovative solutions and enhancing user experiences.
+    </p>
+  </div>
+</div>
+
       <footer>
         <div className="bg-blue-900 py-10 md:py-20 mt-4 text-center">
           <Image
