@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section className="relative p-4">
       {/* Main content area with text and image wrapped together */}
-      <div className="flex flex-col md:flex-row items-center bg-gray-200 p-6 mt-8 w-full">
+      <div className="flex flex-col md:flex-row items-center bg-gray-200 p-6 mt-8 w-full py-30">
         <div className="w-full md:w-1/2 text-center md:text-left">
           <p className="text-red-400 text-base md:text-lg">Understanding is the solution.</p>
           <p className="text-[#002d5b] font-medium text-4xl md:text-6xl mt-4">
