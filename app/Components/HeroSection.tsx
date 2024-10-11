@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 // import Image from 'next/image';
 import Link from 'next/link';
@@ -10,7 +11,7 @@ const HeroSection = () => {
         <div className="w-full md:w-1/2 text-center md:text-left">
           <p className="text-red-400 text-base md:text-lg">Understanding is the solution.</p>
           <p className="text-[#002d5b] font-medium text-4xl md:text-6xl mt-4">
-            I'm a programmer <br />
+            I&apos;m a programmer <br />
             Egharevba Gift
           </p>
 
@@ -62,7 +63,7 @@ const HeroSection = () => {
                 my goal remains the same: to merge purpose with beauty, creating work that inspires
                 and makes a difference. By continuously learning and evolving through travel and 
                 exploration, I bring fresh perspectives and global insights to every project,
-                always aiming to push the boundaries of what's possible in design.
+                always aiming to push the boundaries of what&apos;s possible in design.
               </p>
             </div>
 
@@ -71,7 +72,7 @@ const HeroSection = () => {
               <h3 className="text-[#000a2d] text-[40px] font-bold mb-[35px] leading-[1.5]">
                 Any Type Of Query<br /> &amp; Discussion.
               </h3>
-              <p className="mb-4 text-[#6c757d]">Late talk's with me ? that is alright .</p>
+              <p className="mb-4 text-[#6c757d]">Late talk&apos;s with me ? that is alright.</p>
               <div className="send-cv">
                 <a
                   href="mailto:egharevbagift79@gmail.com"

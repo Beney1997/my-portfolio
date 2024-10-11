@@ -9,32 +9,31 @@ const AboutPage = () => {
 
   useEffect(() => {
     const observerOptions = {
-      root: null, 
+      root: null,
       rootMargin: '0px',
-      threshold: 0.1, 
+      threshold: 0.1,
     };
 
     const observerCallback = (entries: IntersectionObserverEntry[]) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          console.log("About Me section is visible");
           setIsVisible(true);
         } else {
-          console.log("About Me section is not visible");
           setIsVisible(false);
         }
       });
     };
 
     const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const currentRef = aboutRef.current;
 
-    if (aboutRef.current) {
-      observer.observe(aboutRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (aboutRef.current) {
-        observer.unobserve(aboutRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
@@ -51,7 +50,7 @@ const AboutPage = () => {
       <div className="flex flex-col md:flex-row items-start md:items-center mx-auto max-w-5xl px-4 md:px-0">
         <div className="flex-shrink-0">
           <Image 
-            src={require('@/app/Public/images/gift.png')} 
+            src="/images/gift.png"  
             alt="Egharevba Gift"
             width={200}  
             height={200} 
@@ -77,7 +76,7 @@ const AboutPage = () => {
           As a skilled front-end engineer, I have experience in 
           designing and implementing seamless web applications. With proficiency
           in modern front-end technologies and frameworks, I am eager to contribute to a 
-          dynamic development team,  driving innovative solutions and enhancing user experiences.
+          dynamic development team, driving innovative solutions and enhancing user experiences.
           </p>
         </div>
       </div>
@@ -97,7 +96,7 @@ const AboutPage = () => {
             egharevbagift79@gmail.com
           </a>
           <p className="text-white text-sm sm:text-base mt-5">
-            No 8,Abijio,GRA off Lekki -epe-expressway,Lagos,Nigeria.
+            No 8, Abijio, GRA off Lekki -Epe Expressway, Lagos, Nigeria.
           </p>
           <p className="text-[#000a2d] text-xs sm:text-base mt-8">
             Copyright ©2024 All rights reserved | This template is made with ❤️ by Gift.
@@ -110,6 +109,5 @@ const AboutPage = () => {
     </section>
   );
 }
-
 
 export default AboutPage;

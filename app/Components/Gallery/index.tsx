@@ -13,7 +13,7 @@ const Gallery = () => {
         <div className="flex flex-wrap justify-start items-start space-x-4 mb-40">
           <div className="flex flex-col">
             <Image
-              src={require("@/app/Public/images/image.png")} 
+              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/services1.png" 
               alt='Dress'
               width={800}
               height={200}
@@ -22,43 +22,43 @@ const Gallery = () => {
 
           <div className="flex flex-col">
             <Image 
-              src={require("@/app/Public/images/image copy 2.png")} 
+              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/services2.png"
               alt='Car'
               className='mt-0'
-              width={0}
-              height={0}
+              width={350}
+              height={150}
             />
 
             <Image 
-              src={require("@/app/Public/images/image copy.png")}
+              src=" https://preview.colorlib.com/theme/personalportfolio/assets/img/service/services3.png"
               alt='Shoe'
               className='mt-10'
-              width={0}
-              height={0}
+              width={350}
+              height={100}
             />
           </div>
 
           <div className="flex space-x-4 mt-10">
             <Image 
-              src={require("@/app/Public/images/image copy 3.png")} 
+              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/services4.png"
               alt='Image 3'
               className='w-auto h-auto'
-              width={0}
-              height={0}
+              width={350}
+              height={150}
             />
             <Image 
-              src={require("@/app/Public/images/image copy 4.png")} 
+              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/services5.png" 
               alt='Image 4'
               className='w-auto h-auto'
-              width={0}
-              height={0}
+              width={350}
+              height={150}
             />
             <Image 
-              src={require("@/app/Public/images/image copy 5.png")} 
+              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/services6.png"
               alt='Image 5'
               className='w-auto h-auto'
-              width={0}
-              height={0}
+              width={350}
+              height={150}
             />
           </div>
         </div>
