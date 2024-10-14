@@ -1,31 +1,28 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Footer= () => {
+const Footer = () => {
   return (
-    <section className="bg-red-50 py-20"> 
-   
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between"> 
-      
+    <section className="bg-red-50">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full h-full py-20"> 
         <div className="w-full md:w-1/2 mb-8 md:mb-0"> 
           <h2 className="section-title font-bold text-6xl md:text-5xl mt-4 text-[#000a2d] mb-10">
             If Not Now, When? <br /> Let us Work Together!
           </h2>
           <p className="text-[#000a2d] mb-4">
-          My name is Gift, and I am excited about the possibility of working together to bring 
-          your ideas to life. With a passion for creating innovative and impactful solutions, 
-          I believe that every great partnership starts with the right timing and that time is now.
+            My name is Gift, and I am excited about the possibility of working together to bring 
+            your ideas to life. With a passion for creating innovative and impactful solutions, 
+            I believe that every great partnership starts with the right timing and that time is now.
           </p>
           <p className="text-[#000a2d]">
-          Are you looking to build a user-friendly website, improve your digital presence,
-          a beautiful customer service experience  or craft seamless experiences, 
-          I am here to help you achieve your goals. Let us work together to create something truly remarkable.
+            Are you looking to build a user-friendly website, improve your digital presence,
+            a beautiful customer service experience or craft seamless experiences, 
+            I am here to help you achieve your goals. Let us work together to create something truly remarkable.
           </p>
         </div>
 
-       
         <div className="w-full md:w-1/2"> 
-          <form className="p-8 rounded-lg shadow-lg">
+          <form className="p-4 rounded-lg shadow-lg">
             <div className="mb-4">
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">Full Name</label>
               <input
@@ -48,7 +45,7 @@ const Footer= () => {
               <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
               <textarea
                 id="message"
-                className="mt-1 block w-full p-5  text-black rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                className="mt-1 block w-full p-5 text-black rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                 placeholder="Write your message"
               ></textarea>
             </div>
@@ -64,7 +61,7 @@ const Footer= () => {
         </div>
       </div>
       <footer>
-        <div className="bg-blue-900 py-10 md:py-20 mt-4 text-center">
+        <div className="bg-blue-900 py-10 md:py-20 mt-4 text-center w-full"> 
           <Image
             src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
             alt="Portfolio Logo"
@@ -93,4 +90,4 @@ const Footer= () => {
   );
 };
 
-export default Footer ;
+export default Footer;

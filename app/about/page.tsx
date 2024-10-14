@@ -11,8 +11,8 @@ const AboutPage = () => {
   };
 
   return (
-    <section className="p-4 bg-white min-h-screen relative">
-      <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-20 sm:py-30 mb-8">
+    <section className=" bg-white min-h-screen ">
+      <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-20 sm:py-30 mb-8 w-full">
         <h1 className="text-[#002d5b] font-medium text-3xl sm:text-4xl md:text-6xl ml-4 sm:ml-10">About Me</h1>
         <Link href="/" className="text-red-500 mt-4 inline-block text-sm sm:text-base md:text-lg ml-4 sm:ml-10">
           Home / About Me

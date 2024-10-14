@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
+
 const Gallery = () => {
   return (
     <>
@@ -62,6 +63,7 @@ const Gallery = () => {
               height={150}
               className="w-full md:w-auto"
             />
+          
           </div>
         </div>
       </section>
