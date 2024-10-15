@@ -6,13 +6,16 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [navBg, setNavBg] = useState('bg-transparent');
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setIsSticky(true); 
+        setNavBg('bg-white');
       } else {
         setIsSticky(false); 
+        setNavBg('bg-transparent');
       }
     };
 

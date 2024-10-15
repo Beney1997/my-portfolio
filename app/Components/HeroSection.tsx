@@ -2,6 +2,9 @@
 import React from 'react';
 // import Image from 'next/image';
 import Link from 'next/link';
+import { SiWeblate } from 'react-icons/si';
+import { TbBrandDolbyDigital } from 'react-icons/tb';
+import { RiCustomerService2Line } from 'react-icons/ri';
 
 const HeroSection = () => {
   return (
@@ -90,6 +93,57 @@ const HeroSection = () => {
     </div>
   </div>
 </section>
+
+<section className="categories-area section-padding3 mb-40">
+      <div className="grid grid-cols-1 gap-5 mx-auto mb-10 md:grid-cols-3 lg:grid-cols-3 max-w-screen-xl px-3 ml-20 mr-20">
+  <div className="relative bg-white border border-gray-200 rounded shadow h-full overflow-hidden transition-all duration-300 hover:shadow-lg group flex flex-col">
+    <div className="absolute inset-0 bg-[hsla(11,100%,62.2%,1)] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+    <div className="relative z-10 p-4 flex flex-col flex-grow justify-center items-center">
+      <div className="flex items-center justify-center">
+        <div className="bg-[hsla(11,100%,62.2%,1)] text-white p-4 rounded-full transition-colors duration-300 group-hover:bg-white">
+          <SiWeblate className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)]" />
+        </div>
+      </div>
+      <h5 className="text-[#000a2d] text-xl mb-2 group-hover:text-white text-center">Website Design</h5>
+      <p className="text-[#6c757d] group-hover:text-white text-center">
+        A comprehensive resource designed to guide you through the web design process,
+        helping you craft engaging and effective user experiences.
+      </p>
+    </div>
+  </div>
+  <div className="relative bg-white border border-gray-200 rounded shadow h-full overflow-hidden transition-all duration-300 hover:shadow-lg group flex flex-col">
+    <div className="absolute inset-0 bg-[hsla(11,100%,62.2%,1)] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+    <div className="relative z-10 p-4 flex flex-col flex-grow justify-center items-center">
+      <div className="flex items-center justify-center">
+        <div className="bg-[hsla(11,100%,62.2%,1)] text-white p-4 rounded-full transition-colors duration-300 group-hover:bg-white">
+          <TbBrandDolbyDigital className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)]" />
+        </div>
+      </div>
+      <h5 className="text-[#000a2d] text-xl mb-2 group-hover:text-white text-center">Digital Marketing</h5>
+      <p className="text-[#6c757d] group-hover:text-white text-center">
+        A valuable resource designed to help you master digital marketing strategies 
+        and elevate your online presence.
+      </p>
+    </div>
+  </div>
+  <div className="relative bg-white border border-gray-200 rounded shadow h-full overflow-hidden transition-all duration-300 hover:shadow-lg group flex flex-col">
+    <div className="absolute inset-0 bg-[hsla(11,100%,62.2%,1)] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+    <div className="relative z-10 p-4 flex flex-col flex-grow justify-center items-center">
+      <div className="flex items-center justify-center">
+        <div className="bg-[hsla(11,100%,62.2%,1)] text-white p-4 rounded-full transition-colors duration-300 group-hover:bg-white">
+          <RiCustomerService2Line className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)]" />
+        </div>
+      </div>
+      <h5 className="text-[#000a2d] text-xl mb-2 group-hover:text-white text-center">Customer Service</h5>
+      <p className="text-[#6c757d] group-hover:text-white text-center">
+        A valuable resource crafted to help you master the design process and 
+        enhance the quality of your work, ensuring exceptional customer service experiences.
+      </p>
+    </div>
+  </div>
+</div>
+    </section>
+
 
     </section>
   );
