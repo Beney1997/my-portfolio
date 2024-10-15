@@ -95,6 +95,9 @@ const HeroSection = () => {
 </section>
 
 <section className="categories-area section-padding3 mb-40">
+<div className="section-title ml-12 font-bold text-6xl md:text-4xl mt-10 text-[#000a2d] mb-20">
+        <h2>Services You can <br />Get From Me!</h2>
+      </div>
       <div className="grid grid-cols-1 gap-5 mx-auto mb-10 md:grid-cols-3 lg:grid-cols-3 max-w-screen-xl px-3 ml-20 mr-20">
   <div className="relative bg-white border border-gray-200 rounded shadow h-full overflow-hidden transition-all duration-300 hover:shadow-lg group flex flex-col">
     <div className="absolute inset-0 bg-[hsla(11,100%,62.2%,1)] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>

@@ -17,7 +17,7 @@ const handleButtonClick = () => {
 
 
   return (
-    <section className="bg-white relative p-4">
+    <section className="bg-white ">
       <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-40 sm:py-30 mb-20">
         <h1 className="text-[#002d5b] font-medium text-2xl sm:text-4xl md:text-6xl ml-4 sm:ml-10">
           My Service
