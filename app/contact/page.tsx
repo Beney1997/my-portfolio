@@ -9,17 +9,22 @@ import Image from 'next/image';
 const Contact = () => {
   return (
     <section className="bg-white ">
-      <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-40 sm:py-30 mb-8">
+      {/* Header Section */}
+      <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-20 sm:py-30 mb-8">
         <h1 className="text-[#002d5b] font-medium text-3xl sm:text-4xl md:text-6xl ml-4 sm:ml-10">Contact Me</h1>
         <Link href="/" className="text-red-500 mt-4 inline-block text-sm sm:text-base md:text-lg ml-4 sm:ml-10">
           Home / Contact Me
         </Link>
       </div>
+
+      {/* Get In Touch Section */}
       <div className="text-black mt-20 sm:mt-40 font-bold text-2xl sm:text-3xl ml-4 sm:ml-20">
         <h1>Get In Touch</h1>
       </div>
 
+      {/* Contact Form and Details */}
       <div className="flex flex-col md:flex-row mt-10 mx-4 sm:mx-10 md:mx-20 space-y-10 md:space-y-0 md:space-x-10">
+        {/* Form Section */}
         <div className="w-full md:w-7/12 pr-0 md:pr-4">
           <form className="flex flex-col space-y-4">
             <textarea
@@ -50,7 +55,7 @@ const Contact = () => {
           </form>
         </div>
 
-
+        {/* Contact Information Section */}
         <div className="w-full md:w-5/12 bg-white p-4 rounded">
           <div className="flex items-center mb-4">
             <MdOutlineOtherHouses className="text-gray-600 mr-2 text-3xl sm:text-4xl" />
@@ -82,9 +87,9 @@ const Contact = () => {
         </div>
       </div>
 
-     
+      {/* Footer */}
       <footer>
-        <div className="bg-blue-950 py-10 sm:py-20 text-center">
+        <div className="bg-blue-900 py-10 sm:py-20 text-center">
           <Image
             src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
             alt="Portfolio Logo"

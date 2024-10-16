@@ -6,7 +6,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [ ,setNavBg] = useState('bg-transparent');
+  const [navBg, setNavBg] = useState('bg-transparent');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,9 +54,6 @@ const Navbar = () => {
           </Link>
           <Link href="/service" className="text-black hover:text-red-400">
             Service
-          </Link>
-          <Link href="/portfolio" className="text-black hover:text-red-400">
-            Portfolio
           </Link>
           <Link href="/contact" className="text-black hover:text-red-400">
             Contact

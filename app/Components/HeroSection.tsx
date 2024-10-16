@@ -103,11 +103,11 @@ const HeroSection = () => {
     <div className="absolute inset-0 bg-[hsla(11,100%,62.2%,1)] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
     <div className="relative z-10 p-4 flex flex-col flex-grow justify-center items-center">
       <div className="flex items-center justify-center">
-        <div className="bg-[hsla(11,100%,62.2%,1)] mb-8 text-white p-4 rounded-full transition-colors duration-300 group-hover:bg-white">
+        <div className="bg-[hsla(11,100%,62.2%,1)] text-white p-4 rounded-full transition-colors duration-300 group-hover:bg-white">
           <SiWeblate className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)]" />
         </div>
       </div>
-      <h5 className="text-[#000a2d] text-xl mb-5 group-hover:text-white text-center">Website Design</h5>
+      <h5 className="text-[#000a2d] text-xl mb-2 group-hover:text-white text-center">Website Design</h5>
       <p className="text-[#6c757d] group-hover:text-white text-center">
         A comprehensive resource designed to guide you through the web design process,
         helping you craft engaging and effective user experiences.
@@ -118,11 +118,11 @@ const HeroSection = () => {
     <div className="absolute inset-0 bg-[hsla(11,100%,62.2%,1)] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
     <div className="relative z-10 p-4 flex flex-col flex-grow justify-center items-center">
       <div className="flex items-center justify-center">
-        <div className="bg-[hsla(11,100%,62.2%,1)] text-white p-4 rounded-full transition-colors duration-300 group-hover:bg-white mb-8">
-          <TbBrandDolbyDigital className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)] " />
+        <div className="bg-[hsla(11,100%,62.2%,1)] text-white p-4 rounded-full transition-colors duration-300 group-hover:bg-white">
+          <TbBrandDolbyDigital className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)]" />
         </div>
       </div>
-      <h5 className="text-[#000a2d] text-xl mb-5 group-hover:text-white text-center ">Digital Marketing</h5>
+      <h5 className="text-[#000a2d] text-xl mb-2 group-hover:text-white text-center">Digital Marketing</h5>
       <p className="text-[#6c757d] group-hover:text-white text-center">
         A valuable resource designed to help you master digital marketing strategies 
         and elevate your online presence.
@@ -133,11 +133,11 @@ const HeroSection = () => {
     <div className="absolute inset-0 bg-[hsla(11,100%,62.2%,1)] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
     <div className="relative z-10 p-4 flex flex-col flex-grow justify-center items-center">
       <div className="flex items-center justify-center">
-        <div className="bg-[hsla(11,100%,62.2%,1)] mb-8 text-white p-4 rounded-full transition-colors duration-300 group-hover:bg-white">
+        <div className="bg-[hsla(11,100%,62.2%,1)] text-white p-4 rounded-full transition-colors duration-300 group-hover:bg-white">
           <RiCustomerService2Line className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)]" />
         </div>
       </div>
-      <h5 className="text-[#000a2d] text-xl mb-5 group-hover:text-white text-center">Customer Service</h5>
+      <h5 className="text-[#000a2d] text-xl mb-2 group-hover:text-white text-center">Customer Service</h5>
       <p className="text-[#6c757d] group-hover:text-white text-center">
         A valuable resource crafted to help you master the design process and 
         enhance the quality of your work, ensuring exceptional customer service experiences.
@@ -146,6 +146,8 @@ const HeroSection = () => {
   </div>
 </div>
     </section>
+
+
     </section>
   );
 }

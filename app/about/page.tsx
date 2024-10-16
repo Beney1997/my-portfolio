@@ -121,6 +121,7 @@ const AboutPage = () => {
   <div className="container">
     <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 mx-auto px-4">
 
+      {/* Left Column */}
       <div className="about-caption mb-50 p-6 text-[1rem] font-normal leading-[1.5] text-[#212529] text-left bg-white">
         <h3 className="text-[#000a2d] text-3xl font-bold mb-8">
           Designing With Passion While Exploring The World.
@@ -142,6 +143,7 @@ const AboutPage = () => {
         </p> */}
       </div>
 
+      {/* Right Column */}
       <div className="about-caption2 w-full p-6 ml-10">
         <h3 className="text-[#000a2d] text-[40px] font-bold mb-[35px] leading-[1.5]">
           Any Type Of Query<br /> &amp; Discussion.
@@ -212,6 +214,7 @@ const AboutPage = () => {
 
    <section className="bg-red-50">
    <div className="flex flex-col md:flex-row items-center justify-between w-full h-full py-20">
+  {/* Text Section */}
   <div className="w-full md:w-1/2 mb-12 md:mb-0 ml-5 md:ml-10"> 
     <h2 className="section-title font-bold text-6xl md:text-5xl mt-4 text-[#000a2d] mb-8">
       If Not Now, When? <br /> Let us Work Together!
@@ -268,7 +271,7 @@ const AboutPage = () => {
 </div>
 
       <footer>
-        <div className="bg-blue-950 py-10 md:py-20 mt-4 text-center w-full"> 
+        <div className="bg-blue-900 py-10 md:py-20 mt-4 text-center w-full"> 
           <Image
             src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
             alt="Portfolio Logo"
