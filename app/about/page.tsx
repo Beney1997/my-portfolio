@@ -18,7 +18,7 @@ const AboutPage = () => {
 
   return (
     <section className=" bg-white min-h-screen ">
-     <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-40 sm:py-30 mb-20 w-full mt-4">
+     <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-40 sm:py-30 mb-20 w-full mt-8">
   <h1 className="text-[#002d5b] font-medium text-3xl sm:text-4xl md:text-5xl ml-10 sm:ml-20">
     About Me
   </h1>
@@ -271,7 +271,7 @@ const AboutPage = () => {
 </div>
 
       <footer>
-        <div className="bg-blue-900 py-10 md:py-20 mt-4 text-center w-full"> 
+        <div className="bg-blue-950 py-10 md:py-20 mt-4 text-center w-full"> 
           <Image
             src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
             alt="Portfolio Logo"

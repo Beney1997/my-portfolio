@@ -18,7 +18,7 @@ const handleButtonClick = () => {
 
   return (
     <section className="bg-white ">
-      <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-40 sm:py-30 mb-20">
+      <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center py-40 sm:py-30 mb-20 mt-8">
         <h1 className="text-[#002d5b] font-medium text-2xl sm:text-4xl md:text-6xl ml-4 sm:ml-10">
           My Service
         </h1>
@@ -100,7 +100,7 @@ const handleButtonClick = () => {
     </section>
 
       <footer>
-        <div className="bg-blue-900 py-10 md:py-20 mt-4 text-center">
+        <div className="bg-blue-950 py-10 md:py-20 mt-4 text-center">
           <Image
             src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
             alt="Portfolio Logo"

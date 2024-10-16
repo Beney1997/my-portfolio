@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
       </div>
       <footer>
-        <div className="bg-blue-900 py-10 md:py-20 mt-4 text-center w-full"> 
+        <div className="bg-blue-950 py-10 md:py-20 mt-4 text-center w-full"> 
           <Image
             src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
             alt="Portfolio Logo"
