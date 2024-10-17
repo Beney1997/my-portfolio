@@ -6,8 +6,8 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isHoveringPage, setIsHoveringPage] = useState(false);
-  const [isPageActive, setIsPageActive] = useState(false); 
+  // const [isHoveringPage, setIsHoveringPage] = useState(false);
+  // const [isPageActive, setIsPageActive] = useState(false); 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,10 +29,10 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handlePageClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault(); 
-    setIsPageActive(!isPageActive); 
-  };
+  // const handlePageClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  //   e.preventDefault(); 
+  //   setIsPageActive(!isPageActive); 
+  // };
 
   return (
     <div className={`w-full p-4 ${isSticky ? 'fixed top-0 z-50 bg-white shadow-lg' : 'relative bg-transparent'}`}>
