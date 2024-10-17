@@ -9,10 +9,9 @@ import Image from 'next/image';
 const Contact = () => {
   return (
     <section className="bg-white ">
-      {/* Header Section */}
-      <div className="bg-gray-300  h-auto flex flex-col justify-center py-20 sm:py-30 mb-8 mt-8">
-        <h1 className="text-[#002d5b] font-medium text-3xl sm:text-4xl md:text-6xl ml-4 sm:ml-10">Contact Me</h1>
-        <Link href="/" className="text-red-500 mt-4 inline-block text-sm sm:text-base md:text-lg ml-4 sm:ml-10">
+      {/* Header Section */}   <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center items-center text-center py-40 sm:py-30 mb-20 w-full mt-8">
+  <h1 className="text-[#002d5b] font-medium text-3xl sm:text-4xl md:text-5xl">Contact Me</h1>
+        <Link href="/" className="text-red-500 mt-4 inline-block text-sm sm:text-base md:text-lg  ">
           Home / Contact Me
         </Link>
       </div>

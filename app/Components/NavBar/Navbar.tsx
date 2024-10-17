@@ -52,7 +52,7 @@ const Navbar = () => {
           <Link href="/portfolio" className="text-black hover:text-red-400">Portfolio</Link>
           
           
-          <div 
+          {/* <div 
             className="relative"
             onMouseEnter={() => setIsHoveringPage(true)}
             onMouseLeave={() => {
@@ -75,7 +75,7 @@ const Navbar = () => {
                 <Link href="/portfolio/details" className="block px-4 py-1 text-black text-sm hover:text-red-400">Portfolio Details</Link>
               </div>
             )}
-          </div>
+          </div> */}
 
           <Link href="/contact" className="text-black hover:text-red-400">Contact</Link>
         </div>
