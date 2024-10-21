@@ -106,7 +106,7 @@ const ServicesPage = () => {
                 Customer Service
               </h5>
               <p className="text-[#6c757d] group-hover:text-white text-center">
-                Delivering top-tier customer service solutions to enhance your business's support systems.
+                Delivering top-tier customer service solutions to enhance your business support systems.
               </p>
             </div>
           </div>
