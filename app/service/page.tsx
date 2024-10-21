@@ -16,7 +16,7 @@ const ServicesPage = () => {
 
   return (
     <section className="bg-white">
-      <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center items-center text-center py-20 sm:py-30 mb-20 w-full mt-8">
+      <div className="bg-gray-300 p-4 h-auto flex flex-col justify-center items-center text-center py-40 sm:py-30 mb-20 w-full mt-8">
         <h1 className="text-[#002d5b] font-medium text-3xl sm:text-4xl md:text-5xl">
           My Service
         </h1>
@@ -133,28 +133,30 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <footer className="bg-blue-950 py-10 md:py-20 mt-4 text-center">
-        <Image
-          src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
-          alt="Portfolio Logo"
-          className="mx-auto mt-8"
-          width={150}
-          height={150}
-        />
-        <a
-          href="mailto:egharevbagift79@gmail.com"
-          className="text-white text-2xl sm:text-4xl font-bold mt-4 sm:mt-10 underline inline-block"
-        >
-          egharevbagift79@gmail.com
-        </a>
-        <p className="text-white text-sm sm:text-base mt-5">
-          No 8, Abijio, GRA off Lekki-Epe Expressway, Lagos, Nigeria.
-        </p>
-        <p className="text-[#000a2d] text-xs sm:text-base mt-8">
-          Copyright ©2024 All rights reserved | This template is made with ❤️
-          by Gift.
-        </p>
-        <p className="text-[#000a2d] mt-4 sm:mt-20">Stay Connected.</p>
+      <footer>
+        <div className="bg-blue-950 py-10 md:py-20 mt-20 text-center w-full">
+          <Image
+            src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo2_footer.png"
+            alt="Portfolio Logo"
+            className="mx-auto"
+            width={150}
+            height={150}
+          />
+          <a
+            href="mailto:egharevbagift79@gmail.com"
+            className="text-white text-xl sm:text-2xl md:text-4xl font-bold mt-4 sm:mt-10 underline inline-block"
+          >
+            egharevbagift79@gmail.com
+          </a>
+          <p className="text-white text-sm sm:text-base mt-5">
+            No 8, Abijio, GRA off Lekki -Epe Expressway, Lagos, Nigeria.
+          </p>
+          <p className="text-[#000a2d] text-xs sm:text-base mt-8">
+            Copyright ©2024 All rights reserved | This template is made with ❤️
+            by Gift.
+          </p>
+          <p className="text-[#000a2d] mt-4 sm:mt-20">Stay Connected.</p>
+        </div>
       </footer>
     </section>
   );
