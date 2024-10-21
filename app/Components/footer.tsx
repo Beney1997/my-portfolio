@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full md:w-1/2"> 
-          <form className="p-4 rounded-lg shadow-lg">
+          <form className="rounded-lg shadow-lg">
             <div className="mb-4">
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">Full Name</label>
               <input

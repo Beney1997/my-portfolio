@@ -44,7 +44,7 @@ const HeroSection = () => {
       <section className="about-area pt-[65px] pb-[10px] mb-20 ml-10">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 mx-auto px-4">
-            {/* Left Column */}
+           
             <div className="about-caption mb-50 p-6 text-[1rem] font-normal leading-[1.5] text-[#212529] text-left bg-white">
               <h3 className="text-[#000a2d] text-3xl font-bold mb-8">
                 Designing With Passion While Exploring The World.
@@ -90,7 +90,7 @@ const HeroSection = () => {
         </div>
       </section>
 
-      <section className="categories-area section-padding3 mb-40">
+      <section className="categories-area  mb-40">
         <div className="section-title ml-12 font-bold text-6xl md:text-4xl mt-10 text-[#000a2d] mb-20">
           <h2>
             Services You can <br />
@@ -106,7 +106,7 @@ const HeroSection = () => {
                   <SiWeblate className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)]" />
                 </div>
               </div>
-              <h5 className="text-[#000a2d] text-xl mb-2 group-hover:text-white text-center">
+              <h5 className="text-[#000a2d] text-xl mt-6 mb-3 group-hover:text-white text-center">
                 Website Design
               </h5>
               <p className="text-[#6c757d] group-hover:text-white text-center">
@@ -124,7 +124,7 @@ const HeroSection = () => {
                   <TbBrandDolbyDigital className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)]" />
                 </div>
               </div>
-              <h5 className="text-[#000a2d] text-xl mb-2 group-hover:text-white text-center">
+              <h5 className="text-[#000a2d] text-xl mt-6 mb-3 group-hover:text-white text-center">
                 Digital Marketing
               </h5>
               <p className="text-[#6c757d] group-hover:text-white text-center">
@@ -141,7 +141,7 @@ const HeroSection = () => {
                   <RiCustomerService2Line className="text-6xl transition-colors duration-300 group-hover:text-[hsla(11,100%,62.2%,1)]" />
                 </div>
               </div>
-              <h5 className="text-[#000a2d] text-xl mb-2 group-hover:text-white text-center">
+              <h5 className="text-[#000a2d] text-xl mt-6 mb-3 group-hover:text-white text-center">
                 Customer Service
               </h5>
               <p className="text-[#6c757d] group-hover:text-white text-center">

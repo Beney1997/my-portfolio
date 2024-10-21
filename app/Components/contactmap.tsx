@@ -20,7 +20,7 @@ const ContactMap = () => {
         <div className="flex flex-col items-center justify-center ">
           <button
             onClick={handleButtonClick}
-            className="bg-red-500 px-4 py-2 rounded text-white"
+            className="bg-red-500 py-2 rounded text-white"
           >
             Contact Me Now
           </button>
@@ -37,7 +37,7 @@ const ContactMap = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-3 mb-10">
             {feedbackData.map((feedback, index) => (
               <div key={index} className="flex flex-col h-full">
-                <div className="relative bg-white border border-gray-200 rounded shadow h-full p-4 flex">
+                <div className="bg-white border border-gray-200 rounded shadow h-full flex">
                   <Image
                     src={feedback.image}
                     alt={`${feedback.name}'s feedback`}
